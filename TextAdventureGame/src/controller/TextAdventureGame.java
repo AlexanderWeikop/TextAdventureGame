@@ -1,5 +1,5 @@
 
-package textadventuregame;
+package controller;
 
 /**
  *
