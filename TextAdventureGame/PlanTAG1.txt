@@ -1,0 +1,44 @@
+Basic game, maze of rooms, player can move around in maze, each room has text description, each room has up to 4 entrances to other rooms
+
+Starting room is RoomA2, exit is RoomC5, grid is A1-F5
+Win condition is reaching the exit (RoomC5)
+
+
+
+Setting: Medieval-ish
+
+
+
+Story: Player starts without a torch and must find their way to the exit, to get there, the player must pass through a series of rooms
+
+which might hide danger or other surprises.
+
+
+
+Character package
+
+
+
+Player class
+
+Movement
+
+Health
+
+Ask directions
+
+
+
+
+
+Dungeon package
+
+
+
+Room class(es)
+
+Grid to keep track of names e.g. RoomA1, RoomD2 (Letters horizontal, numbers vertical)
+
+Up to 4 new directions
+
+Maze of rooms
