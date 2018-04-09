@@ -1,0 +1,32 @@
+RoomA1
+Entrance, print intro/story, e
+
+RoomB1
+xxxx, e+w
+
+RoomB2
+xxxx, e+s
+
+RoomB3
+xxxx, n+e
+
+RoomC1
+xxxx, e+w+s
+
+RoomC2
+xxxx, n+e+w
+
+RoomC3
+xxxx, w+s
+
+RoomC4
+Exit, n
+
+RoomD1
+xxxx, w+s
+
+RoomD2
+xxxx, n+w+s
+
+RoomD3
+xxxx, n
