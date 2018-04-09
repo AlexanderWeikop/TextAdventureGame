@@ -1,0 +1,32 @@
+RoomA1, e-b1
+Entrance, print intro/story, e
+
+RoomB1, e-c1 + w-a1
+5 sleeping monsters, one has a key, player will have to enter sneak mode to avoid death, and then search for/steal the key, to move further in
+
+RoomB2, e-c2 + s-b3
+Player finds a chest with 10 coins
+
+RoomB3, n-b2 + e-c3
+Cannot kill boss without weapon picked up in d2, only option is to escape back north
+
+RoomC1, e-d1 + w-b1 + s-c2
+The player notices 4 entrances, however the north entrance is blocked by collapsed rocks, he must choose one of the remaining three.
+
+RoomC2, n-c1 + e-d2 + w-b2
+Chest with mad dosh
+
+RoomC3, w-b3 + s-c4
+Monster that needs to be killed
+
+RoomC4, n-c3
+Exit, cannot be entered from C3 without key from D3
+
+RoomD1, w-c1 + s-d2
+North wall covered in blood
+
+RoomD2, n-d1 + w-c2 + s-d3
+Player picks up a sharper weapon, double damage to monsters 
+
+RoomD3, n-d2
+Player finds a key that opens door to C4

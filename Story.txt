@@ -1,0 +1,2 @@
+Player takes shelter from snowstorm. He discovers he is standing in a dimly lit room, he now has the option to either proceed further in 
+and look for an exit on the other side, or go back out and risk freezing to death.
