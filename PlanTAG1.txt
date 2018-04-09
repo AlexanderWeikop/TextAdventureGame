@@ -1,0 +1,17 @@
+Basic game, maze of rooms, player can move around in maze, each room has text description, each room has up to 4 entrances to other rooms
+Starting room is RoomA2, exit is RoomF4, grid is A1-F5
+
+Character package
+
+Player class
+Movement
+Health
+Ask directions
+
+
+Dungeon package
+
+Room class(es)
+Grid to keep track of names e.g. RoomA1, RoomD2 (Letters horizontal, numbers vertical)
+Up to 4 new directions
+Maze of rooms
