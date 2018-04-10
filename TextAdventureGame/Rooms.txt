@@ -50,7 +50,7 @@ RoomD1, w-c1 + s-d2
 
 North wall covered in blood
 
-
+, player dies as he steps in
 
 RoomD2, n-d1 + w-c2 + s-d3
 
