@@ -4,11 +4,18 @@ public class Room {
 
     private String name;
     private String description;
-    private String north;
-    private String east;
-    private String west;
-    private String south;
+    private Room north;
+    private Room east;
+    private Room west;
+    private Room south;
 
+    public Room(String name, String description) {
+        //this.name = name;
+        this.name = "rA1";
+        this.description = "Entrance";
+        //this.description = description;
+    }
+    
     public String getName() {
         return name;
     }

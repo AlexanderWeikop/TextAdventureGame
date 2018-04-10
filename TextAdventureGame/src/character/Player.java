@@ -12,4 +12,11 @@ public class Player {
     public String getCurrentRoom() {
         return currentRoom;
     }
+
+    public Player(String name, String currentRoom) {
+        this.name = name;
+        this.currentRoom = currentRoom;
+    }
+    
+    
 }

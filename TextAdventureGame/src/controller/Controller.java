@@ -3,16 +3,20 @@ package controller;
 
 import character.Player;
 import dungeon.Room;
+import tui.Tui;
 
 /**
  *
  * @author Alexander W
  */
 public class Controller {
-
+    Player player;
+    
     public static void main(String[] args) {
         createRooms();
-        createPlayer();
+        Tui tui = new Tui();
+        String name = tui.getUserName();
+        createPlayer(name);
         play();
     }
     
@@ -30,8 +34,8 @@ public class Controller {
         Room rD3 = new Room();
     }
     
-    public static void createPlayer() {
-        Player player = new Player();
+    public static void createPlayer(String name) {
+        player = new Player(name);
     }
     
     public static void play() {
